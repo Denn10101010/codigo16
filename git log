@@ -1,0 +1,23 @@
+[33mcommit 1b5bf9fb60d6f8be8872606b720b056152f7bb50[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Denn10101010 <mtd2018@outlook.es>
+Date:   Mon May 30 22:26:04 2022 -0500
+
+    mi primer archivo de git
+
+[1mdiff --git a/archivo.txt b/archivo.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6e9e8ad[m
+[1m--- /dev/null[m
+[1m+++ b/archivo.txt[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lagn="es">[m
+[32m+[m	[32m<head>[m
+[32m+[m		[32m<meta charset="utf-8">[m
+[32m+[m		[32m<title>Git</title>[m
+[32m+[m	[32m</head>[m
+[32m+[m	[32m<body>[m
+[32m+[m		[32m<h1> Hola Mundo </h1>[m
+[32m+[m	[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
