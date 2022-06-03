@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table,th, td{
+    border: 1px solid #222;
+}
+table{
+    margin: 15px 0 0 0;
+}
+td, th{
+    padding: 10px;
+}
+h1{
+    color: chocolate;
+}
+table td{
+    text-align: right;
+}
+table tr:nth-child(even){
+    background:chocolate;
+    color: #fff;
+    font-weight: 800;
+}
