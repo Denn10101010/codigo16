@@ -1,0 +1,97 @@
+@font-face {
+    font-family: neon;
+    src: url(../fuentes/Neon.ttf);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 800px;
+}
+td{
+    font-family: neon;
+    font-size: 1em;
+}
+.ult{
+    display: flex;
+}
+
+
+table tr td{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+div .check{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    margin: 0 3px;
+}
+
+div .men{
+    width: 20px;
+    height: 20px;
+    background-color: #aaa;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 3px;
+}
+div .ex{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 3px;
+}
+
+
+div .desc{
+    widows: 500px;
+    min-height: 50px;
+}
+div .desc td{
+    flex-wrap: wrap;
+    display: flex;
+}
+div .desc td .tt{
+    margin: 5px 0 5px 10px;
+}
+
+h1.titl {
+    margin: 30px 0 0 5px; 
+    font-family: neon;
+    text-decoration: overline;
+}
+
+h1.titulo{
+    margin: 0 0 20px 0;
+    font-family: neon;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-left: 4px solid #000;
+    
+    border-bottom: 4px solid #000;
+    box-shadow: ;
+    padding: 10px;
+    box-shadow: -10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+div .ult{
+    display: flex;
+    justify-content: center;
+}
